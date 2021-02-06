@@ -1,0 +1,14 @@
+[2020/12/30 12:57:30807][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
+[2020/12/30 13:43:20561][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
+[2020/12/30 13:43:46765][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
+[2020/12/30 19:27:50569][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
+[2020/12/30 19:29:52555][DEBUG][com.xinchao.Demo.main(Demo.java:16)] 调试信息.
+[2020/12/30 19:29:52556][INFO ][com.xinchao.Demo.main(Demo.java:18)] 输出信息.
+[2020/12/30 19:29:52557][ERROR][com.xinchao.Demo.main(Demo.java:20)] 错误信息.
+[2020/12/30 19:29:52557][WARN ][com.xinchao.Demo.main(Demo.java:22)] 警告信息.
+[2020/12/30 19:29:52563][FATAL][com.xinchao.Demo.main(Demo.java:23)] 致命信息
+[2020/12/30 19:30:55873][DEBUG][com.xinchao.Demo.main(Demo.java:16)] 调试信息.
+[2020/12/30 19:30:55875][INFO ][com.xinchao.Demo.main(Demo.java:18)] 输出信息.
+[2020/12/30 19:30:55875][ERROR][com.xinchao.Demo.main(Demo.java:20)] 错误信息.
+[2020/12/30 19:30:55875][WARN ][com.xinchao.Demo.main(Demo.java:22)] 警告信息.
+[2020/12/30 19:30:55876][FATAL][com.xinchao.Demo.main(Demo.java:23)] 致命信息
