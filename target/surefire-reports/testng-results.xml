@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="DataPro" duration-ms="36" started-at="2020-12-20T11:07:01Z" finished-at="2020-12-20T11:07:01Z">
+  <suite name="DataPro" duration-ms="26" started-at="2021-02-07T00:33:34Z" finished-at="2021-02-07T00:33:34Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="36" started-at="2020-12-20T11:07:01Z" finished-at="2020-12-20T11:07:01Z">
+    <test name="Command line test" duration-ms="26" started-at="2021-02-07T00:33:34Z" finished-at="2021-02-07T00:33:34Z">
       <class name="DataPro">
-        <test-method status="PASS" signature="DataProviderShow(DataPro)[pri:0, instance:DataPro@2c8d66b2]" name="DataProviderShow" duration-ms="11" started-at="2020-12-20T11:07:01Z" data-provider="DataProvider" finished-at="2020-12-20T11:07:01Z">
+        <test-method status="PASS" signature="DataProviderShow(DataPro)[pri:0, instance:DataPro@59494225]" name="DataProviderShow" duration-ms="7" started-at="2021-02-07T00:33:34Z" data-provider="name" finished-at="2021-02-07T00:33:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DataPro@7ac7a4e4]]>
+                <![CDATA[DataPro@4232c52b]]>
               </value>
             </param>
           </params>

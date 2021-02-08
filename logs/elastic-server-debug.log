@@ -1,14 +1,287 @@
-[2020/12/30 12:57:30807][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
-[2020/12/30 13:43:20561][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
-[2020/12/30 13:43:46765][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
-[2020/12/30 19:27:50569][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
-[2020/12/30 19:29:52555][DEBUG][com.xinchao.Demo.main(Demo.java:16)] 调试信息.
-[2020/12/30 19:29:52556][INFO ][com.xinchao.Demo.main(Demo.java:18)] 输出信息.
-[2020/12/30 19:29:52557][ERROR][com.xinchao.Demo.main(Demo.java:20)] 错误信息.
-[2020/12/30 19:29:52557][WARN ][com.xinchao.Demo.main(Demo.java:22)] 警告信息.
-[2020/12/30 19:29:52563][FATAL][com.xinchao.Demo.main(Demo.java:23)] 致命信息
-[2020/12/30 19:30:55873][DEBUG][com.xinchao.Demo.main(Demo.java:16)] 调试信息.
-[2020/12/30 19:30:55875][INFO ][com.xinchao.Demo.main(Demo.java:18)] 输出信息.
-[2020/12/30 19:30:55875][ERROR][com.xinchao.Demo.main(Demo.java:20)] 错误信息.
-[2020/12/30 19:30:55875][WARN ][com.xinchao.Demo.main(Demo.java:22)] 警告信息.
-[2020/12/30 19:30:55876][FATAL][com.xinchao.Demo.main(Demo.java:23)] 致命信息
+[2021/02/06 13:32:21391][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 13:32:21467][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 13:32:21529][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 13:32:21531][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 13:32:21531][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 13:32:21539][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 13:32:21540][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 13:32:21541][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 13:32:21542][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 13:32:21543][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 13:32:21544][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 13:32:21552][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 13:32:21553][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 13:32:21554][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 13:32:21555][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 13:32:21556][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 13:32:21557][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 13:32:21557][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 13:32:21558][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 13:32:21558][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 13:32:21559][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 13:32:21559][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 13:32:21559][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 13:32:21615][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 13:32:21623][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 13:32:21624][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 13:32:21625][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 13:32:21626][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 13:32:21626][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 05:32:21 GMT[\r][\n]"
+[2021/02/06 13:32:21626][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 13:32:21627][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 13:32:21627][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 13:32:21628][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 13:32:21628][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 13:32:21628][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 13:32:21628][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 13:32:21629][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 05:32:21 GMT
+[2021/02/06 13:32:21642][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 13:32:21740][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 13:32:21740][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 13:32:21741][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 13:32:21741][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 13:32:21741][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 13:32:21742][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 13:32:21742][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 13:33:44940][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 13:33:4518 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 13:33:4574 ][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 13:33:4577 ][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 13:33:4577 ][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 13:33:4579 ][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 13:33:4579 ][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 13:33:4580 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 13:33:4581 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 13:33:4584 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 13:33:4595 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 13:33:4596 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 13:33:4597 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 13:33:4597 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 13:33:4598 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 13:33:4598 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 13:33:4598 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 13:33:4599 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 13:33:4599 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 13:33:45100][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 13:33:45100][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 13:33:45101][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 13:33:45101][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 13:33:45137][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 13:33:45140][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 13:33:45140][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 13:33:45141][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 13:33:45142][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 13:33:45142][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 05:33:45 GMT[\r][\n]"
+[2021/02/06 13:33:45143][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 13:33:45144][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 13:33:45144][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 13:33:45145][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 13:33:45145][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 13:33:45145][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 13:33:45146][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 13:33:45146][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 05:33:45 GMT
+[2021/02/06 13:33:45153][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 13:33:45188][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 13:33:45190][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 13:33:45191][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 13:33:45191][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 13:33:45192][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 13:33:45193][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 13:33:45193][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 13:36:15867][ERROR][DataPro.DataProviderShow(DataPro.java:21)] error  occourds this line 
+[2021/02/06 14:22:04439][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 14:22:04506][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 14:22:04591][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 14:22:04593][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 14:22:04593][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 14:22:04594][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 14:22:04594][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 14:22:04595][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 14:22:04595][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 14:22:04602][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 14:22:04602][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 14:22:04603][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 14:22:04603][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 14:22:04603][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 14:22:04604][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 14:22:04604][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 14:22:04605][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 14:22:04605][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 14:22:04605][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 14:22:04605][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 14:22:04606][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 14:22:04613][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 14:22:04614][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 14:22:04653][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 14:22:04655][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 14:22:04656][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 14:22:04656][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 14:22:04657][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 14:22:04657][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 06:22:04 GMT[\r][\n]"
+[2021/02/06 14:22:04658][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 14:22:04659][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 14:22:04659][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 14:22:04659][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 14:22:04660][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 14:22:04660][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 14:22:04660][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 14:22:04661][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 06:22:04 GMT
+[2021/02/06 14:22:04682][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 14:22:04702][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 14:22:04703][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 14:22:04703][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 14:22:04704][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 14:22:04704][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 14:22:04704][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 14:22:04705][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 14:22:04719][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x94]V[o[0xdc][0xc4][0x17][0xff]K[0xff][0xef]05[0xda][0xa4]U[0xb5][0xeb][0xbd][0xa8]*tmW![0xb4]R[0xc4]C+[0x9a]H[0xf0][0xb4][0x1a][0xcf][0x8c][0xed]i[0xec][0x99]af[0xbc][0xce][0xf2]D$[0x8a]@P[0x2]*[0x17][0x95]"[0x81][0x10]4< 5[0x88]HT)i[0xbf][0xcc]:[0x97]'[0xbe][0x2][0x1a][0xdb][0x9b][0xbd][0xa6][0x15]O[0x9e]9s[0xce][0xef][0xfc][0xce]m[0xc6][0xce][0x85][0xb7]n[0xad][0xae][0xbf]w[0xfb][0x6][0x88]t[0x12]{[0xff][0xff][0x9f]s[0xa1]^[0xbf][0xb3][0xbe][0xb2][0xbe]q[0x7][0xdc]z[0xbb]^[0xf7][0x9c]B[0xe][0x9c][0x88]@[0xec]9[0x9][0xd1][0x10]DZ[0x8b]:y?[0xa5]}[0x17]q[0xa6][0x9][0xd3]u=[0x10][0x4]T[0x1b]W[0x93]-m[0x1b][0xb3].[0x8a][0xa0]TD[0xbb][0xa9][0xe][0xea][0xaf][0xcf][[0xbf][[0xdf]X[0xa9][0xaf][0xf2]D@M[0xfd]x[0xc][0xb0]v[0xc3][0xbd][0x81]CR[0x19][0x8c][0xa4]0[0xce][0xe0]@[0x1][0x6][0x13][0xe2]J[0x12][0x10])[0x89][0xf4][0x9c][0x98][0xb2]M I[0xec]*=[0x88][0x89][0x8a][0x8][0xd1][0xc0][0xb0])Y [0xa5]@$I[0xe0][0x1a][0xaf][0xd7]l[[0xb5][0x1a]>V[0x1a]j[0x8a][0x1a][0x88]'[0xb6][0xb4][0xb3],[0xb3][0x11]D[0x11][0xb1]}[0xcc][0xe5][0x7][0xb6][0xf])N[0x1b][0x9]e[\r][0xa4][0x94][0xe7]h[0xaa]c[0xe2][0x1d]?|[0x9e][0x1f]<[0x1e]>[0xfd]p[0xf8][0xf4][0xb3][0xfe][0xfe]|x[0xf8]S[0xbe][0xf7][0xc7][0xf1][0x8f][0xbf][0x9e]n?p[0xec]R[0xc5][0xb1][0x8b][0xc][0x1][0xc7][0xe7]x[0x0][0xc]+[0xf7][0xb5]f[0xb3][0xd9]D[0xc8][0x3][0xe][0xa6]}@[0xb1][0x9b]I([0x4][0x91]cAebv([0x86]J[0x15][0x82][0xde][0xb4]Zy[0xa0]z[0x1][0x97][0xc9][0x2]Qo[0xe]4[0xe]=[0xe0][0xd0]$[0x4][0x11][0xc5]$[0xe0](U[0xae][0x96])[0x1]J"[0xd7]6[0xf1]6[0xca][0x18]M[0xfc]4[0x9]m[0x1f][0xf7]b[0x1e][0xf2]VC[0xb0][0x10]d[0x14][0xeb][0xc8]m_m[0x82][0x88][0xd0]0[0xd2]n[0xab][0xfd][0x86][0x7][0x1c][0x1b][0xd3][0xbe][0x7][0x1c][0xe3][0xd0][0xb8]([0xbe]E![0x2][0x0][0x91][0xa6][0x9c][0xcd]![0xab][0x8a]e`HS&[0xd2][0xaa],[0x11][0xc5][0x98][0xb0][0xd2][0xb8][0xc8]x[0xf][0xf1][0x84][0x80]>[0x8c]S[0xe2][0xb6][0xce][0xd7][0xa5]#[0x9d][0xb2][0x97][0xce][0xd5][0xb]*[0xb5][0x97][0xa8]H[0xd5][0xef][0xf9][0xe2][0xd5].[0x8d][0x1e][0xc5][[0xaf]V[0xd4][0xac][0xd2])[0xc2][0xf7][0x1c]% [0xab][0xc2][0xb7][0xfc][0x10][0xa8][0x1e][0x15][0xba][0x97]I[0xcb][0xab][0x0]"
+[2021/02/06 14:23:56802][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 14:23:56867][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 14:23:56912][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 14:23:56915][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 14:23:56915][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 14:23:56916][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 14:23:56917][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 14:23:56918][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 14:23:56919][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 14:23:56920][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 14:23:56921][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 14:23:56931][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 14:23:56932][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 14:23:56933][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 14:23:56933][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 14:23:56934][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 14:23:56934][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 14:23:56935][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 14:23:56935][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 14:23:56935][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 14:23:56936][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 14:23:56936][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 14:23:56937][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 14:23:56969][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 14:23:56972][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 14:23:56973][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 14:23:56974][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 14:23:56974][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 14:23:56975][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 06:23:56 GMT[\r][\n]"
+[2021/02/06 14:23:56975][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 14:23:56976][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 14:23:56977][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 14:23:56977][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 14:23:56978][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 14:23:56978][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 14:23:56979][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 14:23:56979][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 06:23:56 GMT
+[2021/02/06 14:23:56986][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 14:23:574  ][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 14:23:575  ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 14:23:576  ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 14:23:577  ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 14:23:577  ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 14:23:578  ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 14:23:579  ][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 14:23:5729 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x94]V[o[0xdc][0xc4][0x17][0xff]K[0xff][0xef]05[0xda][0xa4]U[0xb5][0xeb][0xbd][0xa8]*tmW![0xb4]R[0xc4]C+[0x9a]H[0xf0][0xb4][0x1a][0xcf][0x8c][0xed]i[0xec][0x99]af[0xbc][0xce][0xf2]D$[0x8a]@P[0x2]*[0x17][0x95]"[0x81][0x10]4< 5[0x88]HT)i[0xbf][0xcc]:[0x97]'[0xbe][0x2][0x1a][0xdb][0x9b][0xbd][0xa6][0x15]O[0x9e]9s[0xce][0xef][0xfc][0xce]m[0xc6][0xce][0x85][0xb7]n[0xad][0xae][0xbf]w[0xfb][0x6][0x88]t[0x12]{[0xff][0xff][0x9f]s[0xa1]^[0xbf][0xb3][0xbe][0xb2][0xbe]q[0x7][0xdc]z[0xbb]^[0xf7][0x9c]B[0xe][0x9c][0x88]@[0xec]9[0x9][0xd1][0x10]DZ[0x8b]:y?[0xa5]}[0x17]q[0xa6][0x9][0xd3]u=[0x10][0x4]T[0x1b]W[0x93]-m[0x1b][0xb3].[0x8a][0xa0]TD[0xbb][0xa9][0xe][0xea][0xaf][0xcf][[0xbf][[0xdf]X[0xa9][0xaf][0xf2]D@M[0xfd]x[0xc][0xb0]v[0xc3][0xbd][0x81]CR[0x19][0x8c][0xa4]0[0xce][0xe0]@[0x1][0x6][0x13][0xe2]J[0x12][0x10])[0x89][0xf4][0x9c][0x98][0xb2]M I[0xec]*=[0x88][0x89][0x8a][0x8][0xd1][0xc0][0xb0])Y [0xa5]@$I[0xe0][0x1a][0xaf][0xd7]l[[0xb5][0x1a]>V[0x1a]j[0x8a][0x1a][0x88]'[0xb6][0xb4][0xb3],[0xb3][0x11]D[0x11][0xb1]}[0xcc][0xe5][0x7][0xb6][0xf])N[0x1b][0x9]e[\r][0xa4][0x94][0xe7]h[0xaa]c[0xe2][0x1d]?|[0x9e][0x1f]<[0x1e]>[0xfd]p[0xf8][0xf4][0xb3][0xfe][0xfe]|x[0xf8]S[0xbe][0xf7][0xc7][0xf1][0x8f][0xbf][0x9e]n?p[0xec]R[0xc5][0xb1][0x8b][0xc][0x1][0xc7][0xe7]x[0x0][0xc]+[0xf7][0xb5]f[0xb3][0xd9]D[0xc8][0x3][0xe][0xa6]}@[0xb1][0x9b]I([0x4][0x91]cAebv([0x86]J[0x15][0x82][0xde][0xb4]Zy[0xa0]z[0x1][0x97][0xc9][0x2]Qo[0xe]4[0xe]=[0xe0][0xd0]$[0x4][0x11][0xc5]$[0xe0](U[0xae][0x96])[0x1]J"[0xd7]6[0xf1]6[0xca][0x18]M[0xfc]4[0x9]m[0x1f][0xf7]b[0x1e][0xf2]VC[0xb0][0x10]d[0x14][0xeb][0xc8]m_m[0x82][0x88][0xd0]0[0xd2]n[0xab][0xfd][0x86][0x7][0x1c][0x1b][0xd3][0xbe][0x7][0x1c][0xe3][0xd0][0xb8]([0xbe]E![0x2][0x0][0x91][0xa6][0x9c][0xcd]![0xab][0x8a]e`HS&[0xd2][0xaa],[0x11][0xc5][0x98][0xb0][0xd2][0xb8][0xc8]x[0xf][0xf1][0x84][0x80]>[0x8c]S[0xe2][0xb6][0xce][0xd7][0xa5]#[0x9d][0xb2][0x97][0xce][0xd5][0xb]*[0xb5][0x97][0xa8]H[0xd5][0xef][0xf9][0xe2][0xd5].[0x8d][0x1e][0xc5][[0xaf]V[0xd4][0xac][0xd2])[0xc2][0xf7][0x1c]% [0xab][0xc2][0xb7][0xfc][0x10][0xa8][0x1e][0x15][0xba][0x97]I[0xcb][0xab][0x0]"
+[2021/02/06 14:26:28887][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 14:26:28908][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 14:26:28962][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 14:26:28965][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 14:26:28966][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 14:26:28967][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 14:26:28967][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 14:26:28968][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 14:26:28969][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 14:26:28971][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 14:26:28972][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 14:26:28982][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 14:26:28983][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 14:26:28983][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 14:26:28984][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 14:26:28985][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 14:26:28985][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 14:26:28986][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 14:26:28986][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 14:26:28987][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 14:26:28987][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 14:26:28988][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 14:26:28988][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 14:26:2922 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 14:26:2926 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 14:26:2926 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 14:26:2927 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 14:26:2927 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 14:26:2928 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 06:26:28 GMT[\r][\n]"
+[2021/02/06 14:26:2929 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 14:26:2930 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 14:26:2931 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 14:26:2931 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 14:26:2932 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 14:26:2932 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 14:26:2932 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 14:26:2933 ][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 06:26:28 GMT
+[2021/02/06 14:26:2938 ][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 14:26:2956 ][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 14:26:2957 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 14:26:2958 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 14:26:2959 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 14:26:2960 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 14:26:2961 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 14:26:2961 ][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 14:26:2981 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x94]V[o[0xdc][0xc4][0x17][0xff]K[0xff][0xef]05[0xda][0xa4]U[0xb5][0xeb][0xbd][0xa8]*tmW![0xb4]R[0xc4]C+[0x9a]H[0xf0][0xb4][0x1a][0xcf][0x8c][0xed]i[0xec][0x99]af[0xbc][0xce][0xf2]D$[0x8a]@P[0x2]*[0x17][0x95]"[0x81][0x10]4< 5[0x88]HT)i[0xbf][0xcc]:[0x97]'[0xbe][0x2][0x1a][0xdb][0x9b][0xbd][0xa6][0x15]O[0x9e]9s[0xce][0xef][0xfc][0xce]m[0xc6][0xce][0x85][0xb7]n[0xad][0xae][0xbf]w[0xfb][0x6][0x88]t[0x12]{[0xff][0xff][0x9f]s[0xa1]^[0xbf][0xb3][0xbe][0xb2][0xbe]q[0x7][0xdc]z[0xbb]^[0xf7][0x9c]B[0xe][0x9c][0x88]@[0xec]9[0x9][0xd1][0x10]DZ[0x8b]:y?[0xa5]}[0x17]q[0xa6][0x9][0xd3]u=[0x10][0x4]T[0x1b]W[0x93]-m[0x1b][0xb3].[0x8a][0xa0]TD[0xbb][0xa9][0xe][0xea][0xaf][0xcf][[0xbf][[0xdf]X[0xa9][0xaf][0xf2]D@M[0xfd]x[0xc][0xb0]v[0xc3][0xbd][0x81]CR[0x19][0x8c][0xa4]0[0xce][0xe0]@[0x1][0x6][0x13][0xe2]J[0x12][0x10])[0x89][0xf4][0x9c][0x98][0xb2]M I[0xec]*=[0x88][0x89][0x8a][0x8][0xd1][0xc0][0xb0])Y [0xa5]@$I[0xe0][0x1a][0xaf][0xd7]l[[0xb5][0x1a]>V[0x1a]j[0x8a][0x1a][0x88]'[0xb6][0xb4][0xb3],[0xb3][0x11]D[0x11][0xb1]}[0xcc][0xe5][0x7][0xb6][0xf])N[0x1b][0x9]e[\r][0xa4][0x94][0xe7]h[0xaa]c[0xe2][0x1d]?|[0x9e][0x1f]<[0x1e]>[0xfd]p[0xf8][0xf4][0xb3][0xfe][0xfe]|x[0xf8]S[0xbe][0xf7][0xc7][0xf1][0x8f][0xbf][0x9e]n?p[0xec]R[0xc5][0xb1][0x8b][0xc][0x1][0xc7][0xe7]x[0x0][0xc]+[0xf7][0xb5]f[0xb3][0xd9]D[0xc8][0x3][0xe][0xa6]}@[0xb1][0x9b]I([0x4][0x91]cAebv([0x86]J[0x15][0x82][0xde][0xb4]Zy[0xa0]z[0x1][0x97][0xc9][0x2]Qo[0xe]4[0xe]=[0xe0][0xd0]$[0x4][0x11][0xc5]$[0xe0](U[0xae][0x96])[0x1]J"[0xd7]6[0xf1]6[0xca][0x18]M[0xfc]4[0x9]m[0x1f][0xf7]b[0x1e][0xf2]VC[0xb0][0x10]d[0x14][0xeb][0xc8]m_m[0x82][0x88][0xd0]0[0xd2]n[0xab][0xfd][0x86][0x7][0x1c][0x1b][0xd3][0xbe][0x7][0x1c][0xe3][0xd0][0xb8]([0xbe]E![0x2][0x0][0x91][0xa6][0x9c][0xcd]![0xab][0x8a]e`HS&[0xd2][0xaa],[0x11][0xc5][0x98][0xb0][0xd2][0xb8][0xc8]x[0xf][0xf1][0x84][0x80]>[0x8c]S[0xe2][0xb6][0xce][0xd7][0xa5]#[0x9d][0xb2][0x97][0xce][0xd5][0xb]*[0xb5][0x97][0xa8]H[0xd5][0xef][0xf9][0xe2][0xd5].[0x8d][0x1e][0xc5][[0xaf]V[0xd4][0xac][0xd2])[0xc2][0xf7][0x1c]% [0xab][0xc2][0xb7][0xfc][0x10][0xa8][0x1e][0x15][0xba][0x97]I[0xcb][0xab][0x0]"
+[2021/02/06 14:26:2982 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "(v7[0xb3][0xd2]4[0xc3]g[0xd5][0xa4]B[0x97]0 [0x81][1a[0xa1])[0xc4][0x95]+[0x0][0xa6][0x9a]#[0x9e][0x88][0x98]h[0xe2][0xf2] ([0x4]E]=[0xc7]6[0xae][0x16]8[0xf4]5[0x9b]tX0V[0xa9][0x9f][0xd0][0xc2][0xb9]J+[0xbe][0x93]}=ko[0x8d][0xd0][0x81]cW[0xbd]WuA[0xf5][0xa9][0xda]-5[0x89][0x81]SS[0xc6]H[0xa6][0xc6][0xad]P[0xe5][0xe8]nOKsP[0xf9]I[0x18][0xec]{G[0xdf][0xee][0x9d]~[0xf7][0xcc][0xb1][0xe1][0x1c][0x84]i[0xa6][0x8][0xf2]V[0xbb]3[0x3]Q[\n]"
+[2021/02/06 14:26:2982 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "'AJ[0xc9]"[0x90][0x4][0x8a][0x85]4[0x12](&[0x1][0xf2][0x1f][0xf6][0xf2]G[0xcf][0x17][0x1][0xf4][0x17][0x9a][0xf7])&|[0x12][0xe0]d[0xf7][0xe3][0xd3][0x9f][0xbf]Z[0x4][0xa0])[0xf1][0xe1]B[0x90][0xe2]d[\n]"
+[2021/02/06 14:26:2982 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "d?[0xff]r[0xb7][0x4]a\!I[0x85]^[0x98][0x96][0xf1][0x8c][0x95]7V[0xcc]C[0xca][0x1a]![\r][0xae][0x17][0xab]%[0x98][0x88][0xae][0x16][0xb1][0x9b][0x94][0xcb][0xb4][0xb0][0xad]uVj[0xed][0x9b][0xb5][0xf6][0xcd])[0x84]Z;[0xa8]u[0x82][0xf1][0x18][0xd6]:[0xb8]u[0xc6][0xb1]@[0xab][0x18][0xc6][0xbe]w[0xfc][0xf0]Y~[0xf8]M[0xc9][0xcf][0x9e] X-0GiB[0x98]nd[0x92]jrqyD[0xdc][0xfa][0xf][0xcc]+[0xd6][0xa9][0xbb]|[0x19][0x10][0x86]8&[0x1b][0xef][0xac][0x99][0xf7][0x81]3[0xc2][0xf4][0xc5][0x8c]2[0xcc][0xb3]F[0xcc][0x11]4WN[0xc3][0xe0]_[0x6]sbE[0xa0]D[0x11]p][0x17]X[0x16][0xb8][0xe][0xac][0xeb][0x16][0xb8][0x6][0xac]%[0xeb][0xd2]e`[0x8d]cu[F[0xb0]l[0x95][0xf1]Z[0xa3][0x80][0xad][0xd1][0x1c][0xc4][0xbe]5[0x11][0xf3][0xf2][0xa5][0xae]c[0xcf][0x16]e6[0xaa][0x84]Kb[0x9f][0xe5][0xcf][0x97][0x94]">[0xca][0xa0]/)([0x9e]([0xd7][0xc2]T[0x89][0x18][0xe][0xae][0x1]?[0xe6]h[0xb3]kyG[0x8f][0xf6][0xf3]_[0xbe][0x1f][0x1e][0xec][0xe6][0xf][0xb6][0xab][0x4]OM[0xda][0xf4][0xc0][0x5]z[0x95][0xb3][0x99]m[0xe6][0x1]G[0x14][0x97]4[0xd7]3[0x11]O[0xc8][0x98][0xa4][0x97][0xdf][0xfb]sx[0xf0]E9[0xf9][0x8b]Z[0x96][0xca][0x9][0xe5][0x15][0x9f][0xa7][0x1a][0xbc]i[0xf6][0x15]11[0xf2][0x84][0x84][0xb7][0x84][0xb8][0x18]t[0xdb][0xcd][0xd6][0xd5]%[0xe6]+[0xd1]-[0xf4][0xca][0xe5]K[0xfb][0x16][0xa7]z`{[0xc3][0xc3][0x17][0xc7]_[0xff]V[0x12][0xc9]?[0xbd][0x9f][0xbf][0xb8]w[0xf2][0xa4][0xb8][0xb]J[0x84]Y^w)d[0x3]:[0x81]R%[0x16][0x89]z@"
+[2021/02/06 14:26:2983 ][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8][0xf6]![0xda][0xf4][0x8e]>[0xda]9[0xd9][0xdd][0xce]w[0xee][0x9f]>[0xfe]d[0x8c]4<[0xf8]}m[0xf5][0xf6][0xc9][0x93][0xed]f[0xa7][0xd9][0xba][0xda][0xc9]w[0xfe][0x1a]y0[0xaf][0xe4]y[0xcf]b[0xa8]Lg[0x8e]B^X[0x10][0xdb][0xbc][0xf5][0xe6][[0xfd];[0xfd][0x1b][0x0][0x0][0xff][0xff]\[0x85]C[0x1]M[0x9][0x0][0x0]"
+[2021/02/06 14:26:29100][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:200)] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@456d6c1e
+[2021/02/06 14:26:29101][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:225)] Connection can be kept alive indefinitely
+[2021/02/06 15:03:00594][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)] Get connection for route {}->http://www.baidu.com:80
+[2021/02/06 15:03:00703][DEBUG][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)] Connecting to www.baidu.com:80
+[2021/02/06 15:03:00769][DEBUG][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)] CookieSpec selected: ignoreCookies
+[2021/02/06 15:03:00771][DEBUG][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)] Auth cache not set in the context
+[2021/02/06 15:03:00771][DEBUG][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)] Target auth state: UNCHALLENGED
+[2021/02/06 15:03:00772][DEBUG][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)] Proxy auth state: UNCHALLENGED
+[2021/02/06 15:03:00773][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:677)] Attempt 1 to execute request
+[2021/02/06 15:03:00773][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)] Sending request: GET / HTTP/1.1
+[2021/02/06 15:03:00774][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "GET / HTTP/1.1[\r][\n]"
+[2021/02/06 15:03:00778][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept: */*[\r][\n]"
+[2021/02/06 15:03:00779][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Content-Length: 0[\r][\n]"
+[2021/02/06 15:03:00779][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Host: www.baidu.com[\r][\n]"
+[2021/02/06 15:03:00780][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Connection: Keep-Alive[\r][\n]"
+[2021/02/06 15:03:00780][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)[\r][\n]"
+[2021/02/06 15:03:00781][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2021/02/06 15:03:00781][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  >> "[\r][\n]"
+[2021/02/06 15:03:00782][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)] >> GET / HTTP/1.1
+[2021/02/06 15:03:00782][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept: */*
+[2021/02/06 15:03:00782][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Content-Length: 0
+[2021/02/06 15:03:00783][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Host: www.baidu.com
+[2021/02/06 15:03:00783][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Connection: Keep-Alive
+[2021/02/06 15:03:00791][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_111)
+[2021/02/06 15:03:00792][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)] >> Accept-Encoding: gzip,deflate
+[2021/02/06 15:03:00829][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "HTTP/1.1 200 OK[\r][\n]"
+[2021/02/06 15:03:00836][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Encoding: gzip[\r][\n]"
+[2021/02/06 15:03:00836][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Length: 1108[\r][\n]"
+[2021/02/06 15:03:00836][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Content-Type: text/html[\r][\n]"
+[2021/02/06 15:03:00837][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Server: bfe[\r][\n]"
+[2021/02/06 15:03:00837][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "Date: Sat, 06 Feb 2021 07:03:00 GMT[\r][\n]"
+[2021/02/06 15:03:00837][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "[\r][\n]"
+[2021/02/06 15:03:00838][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)] Receiving response: HTTP/1.1 200 OK
+[2021/02/06 15:03:00838][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)] << HTTP/1.1 200 OK
+[2021/02/06 15:03:00839][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Encoding: gzip
+[2021/02/06 15:03:00839][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Length: 1108
+[2021/02/06 15:03:00839][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Content-Type: text/html
+[2021/02/06 15:03:00840][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Server: bfe
+[2021/02/06 15:03:00840][DEBUG][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)] << Date: Sat, 06 Feb 2021 07:03:00 GMT
+[2021/02/06 15:03:00874][DEBUG][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:504)] Connection can be kept alive indefinitely
+[2021/02/06 15:03:00890][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:545)] Parsing response as: text/html
+[2021/02/06 15:03:00891][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x1f]"
+[2021/02/06 15:03:00891][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8b]"
+[2021/02/06 15:03:00892][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8]"
+[2021/02/06 15:03:00892][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0]"
+[2021/02/06 15:03:00892][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x0][0x0][0x0][0x0][0x0][0xff]"
+[2021/02/06 15:03:00893][DEBUG][io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:548)] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2021/02/06 15:03:00915][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x94]V[o[0xdc][0xc4][0x17][0xff]K[0xff][0xef]05[0xda][0xa4]U[0xb5][0xeb][0xbd][0xa8]*tmW![0xb4]R[0xc4]C+[0x9a]H[0xf0][0xb4][0x1a][0xcf][0x8c][0xed]i[0xec][0x99]af[0xbc][0xce][0xf2]D$[0x8a]@P[0x2]*[0x17][0x95]"[0x81][0x10]4< 5[0x88]HT)i[0xbf][0xcc]:[0x97]'[0xbe][0x2][0x1a][0xdb][0x9b][0xbd][0xa6][0x15]O[0x9e]9s[0xce][0xef][0xfc][0xce]m[0xc6][0xce][0x85][0xb7]n[0xad][0xae][0xbf]w[0xfb][0x6][0x88]t[0x12]{[0xff][0xff][0x9f]s[0xa1]^[0xbf][0xb3][0xbe][0xb2][0xbe]q[0x7][0xdc]z[0xbb]^[0xf7][0x9c]B[0xe][0x9c][0x88]@[0xec]9[0x9][0xd1][0x10]DZ[0x8b]:y?[0xa5]}[0x17]q[0xa6][0x9][0xd3]u=[0x10][0x4]T[0x1b]W[0x93]-m[0x1b][0xb3].[0x8a][0xa0]TD[0xbb][0xa9][0xe][0xea][0xaf][0xcf][[0xbf][[0xdf]X[0xa9][0xaf][0xf2]D@M[0xfd]x[0xc][0xb0]v[0xc3][0xbd][0x81]CR[0x19][0x8c][0xa4]0[0xce][0xe0]@[0x1][0x6][0x13][0xe2]J[0x12][0x10])[0x89][0xf4][0x9c][0x98][0xb2]M I[0xec]*=[0x88][0x89][0x8a][0x8][0xd1][0xc0][0xb0])Y [0xa5]@$I[0xe0][0x1a][0xaf][0xd7]l[[0xb5][0x1a]>V[0x1a]j[0x8a][0x1a][0x88]'[0xb6][0xb4][0xb3],[0xb3][0x11]D[0x11][0xb1]}[0xcc][0xe5][0x7][0xb6][0xf])N[0x1b][0x9]e[\r][0xa4][0x94][0xe7]h[0xaa]c[0xe2][0x1d]?|[0x9e][0x1f]<[0x1e]>[0xfd]p[0xf8][0xf4][0xb3][0xfe][0xfe]|x[0xf8]S[0xbe][0xf7][0xc7][0xf1][0x8f][0xbf][0x9e]n?p[0xec]R[0xc5][0xb1][0x8b][0xc][0x1][0xc7][0xe7]x[0x0][0xc]+[0xf7][0xb5]f[0xb3][0xd9]D[0xc8][0x3][0xe][0xa6]}@[0xb1][0x9b]I([0x4][0x91]cAebv([0x86]J[0x15][0x82][0xde][0xb4]Zy[0xa0]z[0x1][0x97][0xc9][0x2]Qo[0xe]4[0xe]=[0xe0][0xd0]$[0x4][0x11][0xc5]$[0xe0](U[0xae][0x96])[0x1]J"[0xd7]6[0xf1]6[0xca][0x18]M[0xfc]4[0x9]m[0x1f][0xf7]b[0x1e][0xf2]VC[0xb0][0x10]d[0x14][0xeb][0xc8]m_m[0x82][0x88][0xd0]0[0xd2]n[0xab][0xfd][0x86][0x7][0x1c][0x1b][0xd3][0xbe][0x7][0x1c][0xe3][0xd0][0xb8]([0xbe]E![0x2][0x0][0x91][0xa6][0x9c][0xcd]![0xab][0x8a]e`HS&[0xd2][0xaa],[0x11][0xc5][0x98][0xb0][0xd2][0xb8][0xc8]x[0xf][0xf1][0x84][0x80]>[0x8c]S[0xe2][0xb6][0xce][0xd7][0xa5]#[0x9d][0xb2][0x97][0xce][0xd5][0xb]*[0xb5][0x97][0xa8]H[0xd5][0xef][0xf9][0xe2][0xd5].[0x8d][0x1e][0xc5][[0xaf]V[0xd4][0xac][0xd2])[0xc2][0xf7][0x1c]% [0xab][0xc2][0xb7][0xfc][0x10][0xa8][0x1e][0x15][0xba][0x97]I[0xcb][0xab][0x0]"
+[2021/02/06 15:03:00916][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "(v7[0xb3][0xd2]4[0xc3]g[0xd5][0xa4]B[0x97]0 [0x81][1a[0xa1])[0xc4][0x95]+[0x0][0xa6][0x9a]#[0x9e][0x88][0x98]h[0xe2][0xf2] ([0x4]E]=[0xc7]6[0xae][0x16]8[0xf4]5[0x9b]tX0V[0xa9][0x9f][0xd0][0xc2][0xb9]J+[0xbe][0x93]}=ko[0x8d][0xd0][0x81]cW[0xbd]WuA[0xf5][0xa9][0xda]-5[0x89][0x81]SS[0xc6]H[0xa6][0xc6][0xad]P[0xe5][0xe8]nOKsP[0xf9]I[0x18][0xec]{G[0xdf][0xee][0x9d]~[0xf7][0xcc][0xb1][0xe1][0x1c][0x84]i[0xa6][0x8][0xf2]V[0xbb]3[0x3]Q[\n]"
+[2021/02/06 15:03:00916][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]  << "'AJ[0xc9]"[0x90][0x4][0x8a][0x85]4[0x12](&[0x1][0xf2][0x1f][0xf6][0xf2]G[0xcf][0x17][0x1][0xf4][0x17][0x9a][0xf7])&|[0x12][0xe0]d[0xf7][0xe3][0xd3][0x9f][0xbf]Z[0x4][0xa0])[0xf1][0xe1]B[0x90][0xe2]d[\n]"
+[2021/02/06 15:03:00917][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "d?[0xff]r[0xb7][0x4]a\!I[0x85]^[0x98][0x96][0xf1][0x8c][0x95]7V[0xcc]C[0xca][0x1a]![\r][0xae][0x17][0xab]%[0x98][0x88][0xae][0x16][0xb1][0x9b][0x94][0xcb][0xb4][0xb0][0xad]uVj[0xed][0x9b][0xb5][0xf6][0xcd])[0x84]Z;[0xa8]u[0x82][0xf1][0x18][0xd6]:[0xb8]u[0xc6][0xb1]@[0xab][0x18][0xc6][0xbe]w[0xfc][0xf0]Y~[0xf8]M[0xc9][0xcf][0x9e] X-0GiB[0x98]nd[0x92]jrqyD[0xdc][0xfa][0xf][0xcc]+[0xd6][0xa9][0xbb]|[0x19][0x10][0x86]8&[0x1b][0xef][0xac][0x99][0xf7][0x81]3[0xc2][0xf4][0xc5][0x8c]2[0xcc][0xb3]F[0xcc][0x11]4WN[0xc3][0xe0]_[0x6]sbE[0xa0]D[0x11]p][0x17]X[0x16][0xb8][0xe][0xac][0xeb][0x16][0xb8][0x6][0xac]%[0xeb][0xd2]e`[0x8d]cu[F[0xb0]l[0x95][0xf1]Z[0xa3][0x80][0xad][0xd1][0x1c][0xc4][0xbe]5[0x11][0xf3][0xf2][0xa5][0xae]c[0xcf][0x16]e6[0xaa][0x84]Kb[0x9f][0xe5][0xcf][0x97][0x94]">[0xca][0xa0]/)([0x9e]([0xd7][0xc2]T[0x89][0x18][0xe][0xae][0x1]?[0xe6]h[0xb3]kyG[0x8f][0xf6][0xf3]_[0xbe][0x1f][0x1e][0xec][0xe6][0xf][0xb6][0xab][0x4]OM[0xda][0xf4][0xc0][0x5]z[0x95][0xb3][0x99]m[0xe6][0x1]G[0x14][0x97]4[0xd7]3[0x11]O[0xc8][0x98][0xa4][0x97][0xdf][0xfb]sx[0xf0]E9[0xf9][0x8b]Z[0x96][0xca][0x9][0xe5][0x15][0x9f][0xa7][0x1a][0xbc]i[0xf6][0x15]11[0xf2][0x84][0x84][0xb7][0x84][0xb8][0x18]t[0xdb][0xcd][0xd6][0xd5]%[0xe6]+[0xd1]-[0xf4][0xca][0xe5]K[0xfb][0x16][0xa7]z`{[0xc3][0xc3][0x17][0xc7]_[0xff]V[0x12][0xc9]?[0xbd][0x9f][0xbf][0xb8]w[0xf2][0xa4][0xb8][0xb]J[0x84]Y^w)d[0x3]:[0x81]R%[0x16][0x89]z@"
+[2021/02/06 15:03:00917][DEBUG][org.apache.http.impl.conn.Wire.wire(Wire.java:87)]  << "[0x8][0xf6]![0xda][0xf4][0x8e]>[0xda]9[0xd9][0xdd][0xce]w[0xee][0x9f]>[0xfe]d[0x8c]4<[0xf8]}m[0xf5][0xf6][0xc9][0x93][0xed]f[0xa7][0xd9][0xba][0xda][0xc9]w[0xfe][0x1a]y0[0xaf][0xe4]y[0xcf]b[0xa8]Lg[0x8e]B^X[0x10][0xdb][0xbc][0xf5][0xe6][[0xfd];[0xfd][0x1b][0x0][0x0][0xff][0xff]\[0x85]C[0x1]M[0x9][0x0][0x0]"
+[2021/02/06 15:03:00950][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:200)] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@205d38da
+[2021/02/06 15:03:00950][DEBUG][org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:225)] Connection can be kept alive indefinitely
